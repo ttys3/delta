@@ -63,3 +63,6 @@ features = []
 version = "0.12.4"
 default-features = false
 features = []
+
+[patch.crates-io]
+sysinfo = { git = "https://github.com/ttys3/sysinfo.git", branch = "v0.19.2-linux-perf" }

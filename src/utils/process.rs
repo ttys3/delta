@@ -39,7 +39,8 @@ lazy_static! {
 }
 
 fn determine_calling_process() -> Option<CallingProcess> {
-    calling_process_cmdline(ProcInfo::new(), describe_calling_process)
+    None
+    // calling_process_cmdline(ProcInfo::new(), describe_calling_process)
 }
 
 // Return value of `extract_args(args: &[String]) -> ProcessArgs<T>` function which is
